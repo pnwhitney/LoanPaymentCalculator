@@ -23,7 +23,9 @@ shinyUI(pageWithSidebar(
     numericInput('term', 'Term (years)', 0, 1, 30),
     submitButton('Calculate'),
     h3('Monthly Payment'),
-    verbatimTextOutput("payment")
+    verbatimTextOutput("payment"),
+    h3('Github URL'),
+    h4("https://github.com/pnwhitney/LoanPaymentCalculator")
   ),
   mainPanel(
   )

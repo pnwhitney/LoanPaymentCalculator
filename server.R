@@ -18,6 +18,7 @@
 shinyServer(
   function(input, output) {
     output$payment <- renderPrint({calculatePayment(input$loanAmount, input$interestRate, input$term)})
+    output
   }
 )
 

@@ -1,0 +1,31 @@
+---
+title: "Loan Payment Calculator"
+author: "Peter Whitney"
+date: "February 27, 2016"
+output: html_document
+---
+
+#### Loan Payment Calculator Shiny Project
+This project contains a shiny ui.R file and a shiny server.R file
+
+
+### Loan Payment Calculator ui.R
+This code renders numeric input controls for loan amount, interest rate, and term.
+
+A submit button is used to initiate the loan payment calculation. 
+
+Upon submission the monthly loan payment is calculated on the server.
+
+The result is returned to the submisison form in the text output field
+
+
+### Loan Payment Calculator server.R
+Receives the input variables entered by the user upon submission.
+
+The variables are passed to a locally defined function.
+
+The calculatePayment functoion determines the monthly loan payment.
+
+The calculated monthly loan payment is returned to the user.
+
+The results are displayed in the text output field

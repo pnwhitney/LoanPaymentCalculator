@@ -29,3 +29,9 @@ The calculatePayment functoion determines the monthly loan payment.
 The calculated monthly loan payment is returned to the user.
 
 The results are displayed in the text output field
+
+### Loan Payment Calculator github URL
+The source code for this project can be viewed at the following URL:
+
+https://github.com/pnwhitney/LoanPaymentCalculator
+
